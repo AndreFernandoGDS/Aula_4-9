@@ -1,3 +1,43 @@
+# Arquivos e diretórios gerados pelo ambiente de desenvolvimento
+build/
+components/
+sdkconfig
+sdkconfig.old
+
+# Arquivos de compilação e saída
+*.bin
+*.elf
+*.hex
+
+# Arquivos de depuração
+*.d
+*.map
+
+# Diretório de ferramentas CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeSettings.json
+
+# Diretórios e arquivos temporários
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de registro e saída de depuração
+*.log
+*.log.*
+*.log_*
+*.log-*
+
+# Arquivos de configuração de editor
+.editorconfig
+
+# Outros arquivos específicos do ambiente
+sdkconfig.old
+
+
 # Prerequisites
 *.d
 
